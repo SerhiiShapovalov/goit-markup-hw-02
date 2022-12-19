@@ -1,0 +1,116 @@
+:root {
+  --primary-text-color: #434455;
+  --first-title-color: #ffffff;
+  --second-title-color: #2e2f42;
+  --first-btn-color: #4d5ae5;
+  --second-btn-color: ;
+  --main-text-color: ;
+  --typical-lh: ;
+  --accent-color: ;
+}
+
+body {
+  background-color: #ffffff;
+  color: #434455;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.accent {
+  color: #2e2f42;
+}
+
+.footer-logo > .accent {
+  color: #f4f4fd;
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: #2e2f42;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #434455;
+}
+
+.site-nav .link:active {
+  color: #4d5ae5;
+}
+
+.address-mailto,
+.address-tel {
+  color: #434455;
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+  color: #4d5ae5;
+}
+
+.hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+.section-title {
+  color: #2e2f42;
+}
+
+.btn {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
+  border-color: #4d5ae5;
+  text-transform: capitalize;
+}
+
+.principles .section-title {
+  display: none;
+}
+
+.features .title {
+  color: #2e2f42;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer > .text {
+  color: #e7e9fc;
+}
+
+.work-list .title {
+  color: var(--second-title-color);
+}
+
+.hero-btn {
+  color: var(--first-title-color);
+  background-color: var(--first-btn-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.works-btn {
+  color: var(--first-btn-color);
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
